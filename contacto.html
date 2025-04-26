@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - TP N° 03 | Guadalupe Pereyra</title>
+    <meta name="description" content="Formulario de contacto para realizar consultas o comentarios sobre las materias cursadas en 2025. Escribí tu mensaje indicando la materia correspondiente y tu dirección de correo electrónico.">
+</head>
+<body>
+    <header>
+        <nav>
+            <hr size="5">
+            <table>
+                <tr>
+                  <td>
+                    <img src="logo-uade.png" alt="Logo UADE">
+                  </td>
+                  <td>
+                    <table border="0">
+                      <tr>
+                        <td><a href="index.html">| Home |</a></td>
+                        <td><a href="avisos.html">| Avisos |</a></td>
+                        <td><a href="sobre-mi.html">| Sobre mí |</a></td>
+                        <td><a href="materias-2025.html">| Materias 2025 |</a></td>
+                        <td><a href="contacto.html">| Contacto |</a></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+        </nav>
+        <hr size="5">
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <p>Completá este formulario si tenés consultas o comentarios sobre las materias cursadas en 2025, ya sea para coordinar trabajos prácticos, resolver dudas académicas o ponerte en contacto por temas relacionados al cursado.</p>
+        <form action="#" method="post">
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="materia">Materia:</label><br>
+        <select id="materia" name="materia" required>
+            <option value="">--Seleccionar--</option>
+            <option value="arquitectura">Arquitectura de Computadores</option>
+            <option value="sistemas">Sistemas de la Información I</option>
+            <option value="algoritmia">Introducción a la Algoritmia</option>
+            <option value="marketing">Marketing</option>
+            <option value="diseno">Diseño y Desarrollo Web</option>
+        </select><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribí tu consulta o comentario aquí..." required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        </form>
+        <br>
+    </main>
+    <footer>
+        <hr size="5">
+        <table border="0">
+          <tr>
+            <td>
+              <p>© 2025 Guadalupe Pereyra. Todos los derechos reservados.</p>
+            </td>
+            <td>
+              <p>Proyecto realizado como parte del trabajo en la Licenciatura en Gestión de la Tecnología Online.</p>
+            </td>
+          </tr>
+        </table>
+        <hr size="5">
+    </footer>
+</body>
+</html>
